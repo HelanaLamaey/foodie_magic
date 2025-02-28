@@ -122,6 +122,10 @@
         max-height:200px; 
         overflow: hidden;
       }
+
+      .main img{
+        height: 50vh !important;
+      }
 }
 
     .tips .container:hover,.social .media{

@@ -1,0 +1,150 @@
+.form-check-input:checked {
+    background-color: #f4c418 !important; 
+    border-color: #f4c418!important;
+}
+
+.form-check-input {
+    background-color: #ccc !important; 
+    border-color: #ccc !important;
+}
+
+.modal-backdrop {
+    z-index: 4 !important; 
+}
+.carousel-caption{
+    background-color: rgba(181, 175, 17, 0.4);
+}
+
+.icons-overlay {
+    top:170px;
+    width: 100px;
+}
+
+.icons-overlay i{
+    font-size: 60px;
+}
+
+.icons-overlay a:hover i {
+    color: #cb9f0f !important ; 
+}
+
+.popular h2,.recipeform h2,.egyptian-recipes h2,.thanks h2{
+    background-color: #ffed85;
+}
+
+.accordion-button::after {
+    filter: invert(1); 
+  }
+
+  .back1-recipes{
+    background-image: url(../images/hamburger-1414422_1280.jpg);
+  }
+
+  .back2-recipes{
+    background-image: url(../images/pizza-3007395_1280.jpg);
+  }
+
+ .back1-recipes ,.back2-recipes{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 38vh;
+ }
+
+  .egyptian-recipes .card img{
+    height: 370px !important;
+ }
+
+ .recipe::after,.recipe::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height:0;
+    visibility: hidden;
+    background-color: rgba(181, 175, 17, 0.4);
+    transition: 0.8s;
+ }
+
+ .recipe::after{
+  top: 0;
+  left: 0;
+ }
+ .recipe::before{
+  bottom: 0;
+ right: 0;
+ }
+
+ .recipe:hover::after,.recipe:hover::before{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+ }
+
+ .chef::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(62, 62, 31, 0.5);
+    border-radius: 20px;
+ }
+
+ .chef:hover{
+  transition: 0.8s;
+  transform: scale(0.9);
+  cursor: pointer;
+ }
+
+ .chef:hover::after{
+    background-color: rgba(36, 36, 1, 0.7);
+ }
+
+  .chef:hover .text-chef{
+    transition: 0.8s;
+    transform: translateY(40px);
+  }
+
+ @media (min-width: 992px) {
+    .image-left {
+      clip-path: polygon(9% 0, 100% 0, 100% 100%, 20% 100%);
+        } 
+     .image-right {
+      clip-path: polygon(0 0, 90% 0, 79% 100%, 0 100%);
+        }
+      }
+
+@media (max-width: 767px){
+   .tips .container {
+        max-width: 80%;
+      }
+      .content, .content2 {
+        max-height:200px; 
+        overflow: hidden;
+      }
+}
+
+    .tips .container:hover,.social .media{
+        box-shadow: 1px 1px 10px 2px rgba(10, 10, 10, 0.7) !important;
+        cursor: pointer;
+    }
+
+    .image-left img,.image-right img{
+        transition: 0.8s;
+    } 
+
+     .tips .container:hover  .image-left img,  .tips .container:hover  .image-right img{
+        transform: scale(1.08);
+    } 
+
+    .line {
+        width: 80px;
+        height: 4px;
+        transition: 0.5s
+      }
+    
+      .tips .container:hover .line {
+        width: 150px; 
+      }
+
+     
